@@ -39,6 +39,6 @@ async def restart(client, m: Message):
 
 @Client.on_message(contact_filter & filters.command(['help'], prefixes=f"{HNDLR}"))
 async def help(client, m: Message):
-   HELP = f"**"🛠help menu \n\n⚡ COMMANDS FOR EVERYONE \n{HNDLR}play \n{HNDLR}playfrom [channel] ; [n] - Plays last n songs from channel \n{HNDLR}playlist / {HNDLR}queue \n{HNDLR}ping \n\n⚡ COMMANDS FOR ADMINS \n{HNDLR}skip \n{HNDLR}pause and {HNDLR}resume \n{HNDLR}stop / {HNDLR}end \n{HNDLR}restart"
+   HELP = f"**"🛠help menu \n\n⚡ COMMANDS FOR EVERYONE \n{HNDLR}play \n`{HNDLR}vplay \n{HNDLR}playfrom [channel] ; [n] - Plays last n songs from channel \n{HNDLR}playlist / {HNDLR}queue \n{HNDLR}ping \n\n⚡ COMMANDS FOR ADMINS \n{HNDLR}skip \n{HNDLR}pause and {HNDLR}resume \n{HNDLR}stop / {HNDLR}end \n{HNDLR}restart"
    await m.reply(HELP)
 
