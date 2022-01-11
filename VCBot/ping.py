@@ -37,7 +37,7 @@ async def ping(client, m: Message):
    delta_ping = time() - start
    uptime_sec = (current_time - START_TIME).total_seconds()
    uptime = await _human_time_duration(int(uptime_sec))
-   await m_reply.edit(f"`{delta_ping 🏓Pong !! * 🕝Time taken: 1000:.3f} ms` \n**🛠️Service uptime:** - `{uptime}`")
+   await m_reply.edit(f"`{delta_ping Pong !! * 🕝Time taken: 1000:.3f} ms` \n**🛠️Service uptime:** - `{uptime}`")
 
 @Client.on_message(contact_filter & filters.command(['restart'], prefixes=f"{HNDLR}"))
 async def restart(client, m: Message):
