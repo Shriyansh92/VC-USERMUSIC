@@ -39,6 +39,7 @@ async def restart(client, m: Message):
 
 @Client.on_message(contact_filter & filters.command(['help'], prefixes=f"{HNDLR}"))
 async def help(client, m: Message):
-   HELP = f"**"🛠help menu \n\n⚡ COMMANDS FOR EVERYONE \n{HNDLR}play \n`{HNDLR}vplay \n{HNDLR}playfrom [channel] ; [n] - Plays last n songs from channel \n{HNDLR}playlist / {HNDLR}queue \n{HNDLR}ping \n\n⚡ COMMANDS FOR ADMINS \n{HNDLR}skip \n{HNDLR}pause and {HNDLR}resume \n{HNDLR}stop / {HNDLR}end \n{HNDLR}restart"
+   HELP = f"**HELP MENU 🛠** \n\n__USER COMMANDS__ (Anyone can Use if `GROUP_MODE` is set to `True`): \n`{HNDLR}play` \n`{HNDLR}vplay` \n`{HNDLR}stream` (For Radio links) \n`{HNDLR}vstream` (For .m3u8 / live links) \n`{HNDLR}playfrom [channel] ; [n]` - Plays last n songs from channel \n`{HNDLR}playlist` / `{HNDLR}queue` \n\n__SUDO COMMANDS__ (Can only be accessed by You and Your Contacts): \n`{HNDLR}ping` \n`{HNDLR}skip` \n`{HNDLR}pause` and `{HNDLR}resume` \n`{HNDLR}stop` / `{HNDLR}end` \n`{HNDLR}help` \n`{HNDLR}restart`"
    await m.reply(HELP)
+
 
