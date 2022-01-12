@@ -17,7 +17,6 @@ It's made with [PyTgCalls](https://github.com/pytgcalls/pytgcalls) and [Pyrogram
 
 
 <p><a href="https://heroku.com/deploy"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
-https://github.com/Shriyansh92/VC-USERMUSIC
 
 1) Installing NodeJS
 ```bash
