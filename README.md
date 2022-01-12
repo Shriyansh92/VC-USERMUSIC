@@ -13,10 +13,9 @@ It's made with [PyTgCalls](https://github.com/pytgcalls/pytgcalls) and [Pyrogram
 ## Deployment
 
 ### Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+<p><a href="https://heroku.com/deploy"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fflask)### Local Deploy
 1) Installing NodeJS
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
@@ -29,20 +28,13 @@ sudo apt-get install git ffmpeg -y
 sudo apt-get install youtube-dl -y
 ```
 
-3) Cloning the Repo
-```bash
-git clone https://github.com/userderdead/tgvc-userbot
-cd usermusicbot
-```
 
-4) Rename `example.env` to `.env` and Fill in the Environment Variables
-
-5) Installing Requirements
+3) Installing Requirements
 ```bash
 pip3 install -U -r requirements.txt
 ```
 
-6) Run the Bot
+4) Run the Bot
 ```bash
 python3 main.py
 ```
@@ -51,17 +43,13 @@ python3 main.py
 ## Environment Variables
 - `API_ID`
 - `API_HASH`
-- `SESSION` - A Pyrogram String Session. Get one from [Here](https://replit.com/@AkashHazra/userderdeadreplit#main.py)
-- `HNDLR` - Your Userbot Handler (Default is !)
+- `SESSION` - A Pyrogram String Session.
+- `HNDLR` - Your Userbot Handler (Default is /)
 - `GROUP_MODE` - if Value is set to `True`, Anyone can Play. Set it to `False` to restrict play access to Sudo Users/Contacts only.
 
 
 ## Commands and Usage
-1) Start the Userbot, check if the Userbot is running by `!ping`.
+1) Start the Userbot, check if the Userbot is running by `/ping`.
 2) Commands of this userbot are accessible to and can be used by the Account itself and it's Contacts.
-3) Check `!help` for commands.
+3) Check `/help` for commands.
 
-
-## Credits ✨
-- [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [Laky](https://github.com/Laky-64) for [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
