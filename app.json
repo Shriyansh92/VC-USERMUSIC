@@ -1,13 +1,13 @@
 {
     "name": "boom💥usermusic",
     "description": "A Telegram Userbot to play Songs in Voice Chat",
+    "repository": "https://github.com/VC-USERMUSIC/vp-deploy",
     "logo": "https://telegra.ph/file/b260c5ebb57dc0631db33.jpg",
     "keywords": [
         "Telegram",
         "VCBot",
         "MusicPlayer"
     ],
-    "repository": "https://github.com/Shriyansh92/VC-USERMUSIC",
     "env": {
         "SESSION": {
             "description": "Pyrogram String Session",
