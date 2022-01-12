@@ -16,7 +16,7 @@ It's made with [PyTgCalls](https://github.com/pytgcalls/pytgcalls) and [Pyrogram
 ## 🚀 <a name="deploy"></a>Deploy
 
 
-[![Deploy on Heroku](="https://heroku.com/deploy"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>https://github.com/Shriyansh92/MUSIC-VC_PLAYER)
+<p><a href="https://heroku.com/deploy"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>https://github.com/Shriyansh92/MUSIC-VC_PLAYER)
 
 
 [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Shriyansh92/VC-USERMUSIC)
