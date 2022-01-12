@@ -22,7 +22,7 @@
             "required": true
         },
         "HNDLR": {
-            "description": "Handler | Default (!)",
+            "description": "Handler | Default (/)",
             "value": "/",
             "required": false 
         },
